@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sergioluis Mendiola</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a href="#" class="navbar__logo">
+            <p>Sergioluis M.</p>
+        </a>
+        <a href="#" class="burger">
+            <img src="./img/burger.png" alt="Burger-Menu" role="button">
+        </a>
+        <ul class="navbar__menu">
+            <li>
+                <a href="#about">Quién soy</a>
+            </li>
+            <li>
+                <a href="#services">Servicios</a>
+            </li>
+            <li>
+                <a href="#contact">Escríbeme</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <h1>Bienvenidos</h1>
+        <picture>
+            <source srcset="./img/sergioluis-mobile.png" media="(max-width: 859px)">
+            <source srcset="./img/sergioluis-desktop.png" media="(min-width: 860px)">
+            <img src="./img/sergioluis-desktop.png" alt="Avatar-Sergioluis">
+        </picture>
+    </div>
+</header>
+<section id="about" class="about-me">
+    <div class="about-me__content">
+        <h2>Sergioluis M.</h2>
+        <p>
+            Ingeniero mecánico, especialista HVAC. Apasionado por el desarrollo web con conocimientos avanzados en HTML
+            y CSS, e intermedios en JavaScript y PHP. Actualmente aprendiendo más en APX School.
+            Actualmente dedicado al turismo, ejerciendo el rol de guía de astronomía donde comparto con los amantes del
+            universo el proceso de evolución estelar...
+        </p>
+    </div>
+    <picture>
+        <source srcset="./img/check-mobile.png" media="(max-width: 859px)">
+        <source srcset="./img/check-desktop.png" media="(min-width: 860px)">
+        <img src="./img/check-desktop.png" alt="check-icon">
+    </picture>
+</section>
+<section id="services" class="services">
+    <h2>Mis servicios</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="./img/telescope.png"
+                 alt="Telescope-icon"
+            width="138"
+            height="138">
+            <h3>Tours Astronómicos</h3>
+            <p>
+                En San Pedro de Atacama, Chile. Bajo uno de los cielos más despejados del mundo. Vamos con el equipo de <em>AtacamaStargazing</em> y a compartir de una noche inolvidable bajo las estrellas.
+            </p>
+        </div>
+        <div class="card">
+            <img src="./img/engineer.png"
+                 alt="Telescope-icon"
+                 width="138"
+                 height="116">
+            <h3>Ventilación Industrial</h3>
+            <p>
+                Diseño de sistemas de ventilación y HVAC con cálculo de cargas térmicas y diseño de ductos siguiendo las normas SMACNA y NFPA para asegurar diseños seguros y de alta calidad.
+            </p>
+        </div>
+        <div class="card">
+            <img src="./img/code.png"
+                 alt="Telescope-icon"
+                 width="138"
+                 height="139">
+            <h3>Desarrollo Web</h3>
+            <p>
+                Desarrollo de sitios web simples (por ahora) con TALL Stack. Conocimiento avanzado de HTML y CSS. En aprendizaje continuo de nuevas tecnologías para mejorar el rendimiento de los nuevos sites.
+            </p>
+        </div>
+    </div>
+</section>
+<section id="contact" class="form">
+    <h3>Escribeme</h3>
+    <form action="#" class="form__container">
+        <div class="form__elements">
+            <div class="form__element">
+                <label for="name">NOMBRE</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form__element">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form__element">
+                <label for="message">MENSAJE</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+        </div>
+        <button type="submit" class="form__submit">Enviar</button>
+    </form>
+</section>
+<footer>
+    <section class="company">
+        <a href="#" class="navbar__logo">
+            <p>Sergioluis M.</p>
+        </a>
+        <p>© 2021 Sergioluis M.</p>
+    </section>
+    <section class="social">
+        <div class="social__network">
+            <img src="./img/instagram.png" width="27" height="28" alt="instagram-icon">
+            <p>Instagram</p>
+        </div>
+        <div class="social__network">
+            <img src="./img/linkedin.png" width="28" height="29" alt="linkedIn-icon">
+            <p>Linkedin</p>
+        </div>
+        <div class="social__network">
+            <img src="./img/github.png" width="29" height="30" alt="github-icon">
+            <p>GitHub</p>
+        </div>
+    </section>
+</footer>
+</body>
+</html>
